@@ -3,7 +3,7 @@ from http import HTTPStatus
 
 
 def main():
-    worker.main()
+    a = worker.main()
     return {
         "statusCode": HTTPStatus.OK,
         "body": 'OK'
