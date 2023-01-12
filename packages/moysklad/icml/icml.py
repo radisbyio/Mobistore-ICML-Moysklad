@@ -268,8 +268,7 @@ async def combine_arrays():
 
 
 def main():
-    return asyncio.run(combine_arrays())
-
+    asyncio.run(combine_arrays())
 
 if __name__ == '__main__':
     main()
