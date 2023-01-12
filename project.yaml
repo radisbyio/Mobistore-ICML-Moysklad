@@ -1,6 +1,6 @@
 packages:
   - name: moysklad
     functions:
-      - name: __main__
+      - name: icml
         runtime: 'python:default'
 
