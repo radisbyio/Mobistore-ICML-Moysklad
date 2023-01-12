@@ -1,0 +1,6 @@
+packages:
+  - name: moysklad
+    functions:
+      - name: __main__
+        runtime: 'python:default'
+
