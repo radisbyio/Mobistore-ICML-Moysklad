@@ -270,5 +270,6 @@ async def combine_arrays():
 def main():
     asyncio.run(combine_arrays())
 
-if __name__ == '__main__':
-    main()
+#
+# if __name__ == '__main__':
+#     main()

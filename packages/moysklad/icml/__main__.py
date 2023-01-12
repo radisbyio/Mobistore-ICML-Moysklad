@@ -1,9 +1,9 @@
-import icml
+import worker
 from http import HTTPStatus
 
 
 def main():
-    icml.main()
+    worker.main()
     return {
         "statusCode": HTTPStatus.OK,
         "body": 'OK'
